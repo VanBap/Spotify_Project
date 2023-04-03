@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect} from "react";
 
 function Menu({title, menuObject}) { //prop, title
     return( 
