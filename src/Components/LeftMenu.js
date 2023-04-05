@@ -5,7 +5,7 @@ import {FaSpotify, FaEllipsisH} from "react-icons/fa";
 import {BiSearchAlt} from 'react-icons/bi';
 import {MenuList} from'./MenuList';
 import {Menu} from'./Menu';
-import {MenuPlayList} from "./MenuPlayList";
+import {MenuPlayList} from "./MenuPlaylist";
 
 
 function LeftMenu()
