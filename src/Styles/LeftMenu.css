@@ -136,6 +136,8 @@
 .playListContainer{
     cursor: pointer;
     margin: 15px 0;
+    /*background-color: #49e12e;*/
+    height: 300px;
 
 }
 
@@ -160,7 +162,7 @@
 } 
 
 .playListContainer .playListScroll {
-    height: 140px;
+    height: 280px;
     overflow-x: hidden;
     overflow-y: scroll;
     position: relative;
@@ -171,5 +173,63 @@
     display: flex;
     color: #848484;
     align-items: center;
-    justify-content: space-between;
+    margin: 10px 0;
+    margin-bottom: 15px;
 }
+
+.playListContainer .playListScroll .playlist i {
+    font-size: 18px;
+
+}
+.playListContainer .playListScroll .playlist  .list{
+    margin-right: 15px;
+}
+.playListContainer .playListScroll .playlist .trash{
+    margin-left: auto;
+}
+.playListContainer .playListScroll .playlist p {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline;
+}
+
+/* ====================*/
+.trackList {
+    border-top: 3px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+
+}
+
+.trackList .top {
+    display: flex;
+    align-items: center;
+
+}
+
+.trackList .top img{
+    width: 50px !important;
+
+}
+
+.trackList .top .trackName{
+    margin-left: 10px;
+    color: #f1f1f1;
+    font-size: 14px;
+
+}
+
+.trackList .top .trackName .trackSpan{
+    display: block;
+    font-size: 12px;
+    color: #848484;
+}
+
+.trackList .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #848484;
+}
+

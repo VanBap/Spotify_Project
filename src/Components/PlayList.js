@@ -10,7 +10,13 @@ const PlayList = [
     {id : 5, 
     name : 'Workout Music'},
     {id : 6, 
-        name : 'HipHop'},    
+        name : 'HipHop'},  
+    {id : 7, 
+        name : 'HipHop'}, 
+    {id : 8, 
+        name : 'HipHop'}, 
+    {id : 9, 
+        name : 'HipHop'},   
 ];
 
 export {PlayList};

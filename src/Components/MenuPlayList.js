@@ -15,7 +15,9 @@ function MenuPlayList() {
     </div>
 
     <div className="playListScroll">
-        <div className="playlist">
+        {
+            PlayList && PlayList.map((list) => ( // Tạo ra 1 dãy mục trong "PLAYLIST"
+                <div className="playlist">
             <i className="list">
                  <BsMusicNoteList/>
              </i>
@@ -26,10 +28,15 @@ function MenuPlayList() {
             <BsTrash/>
             </i>
         </div>
+            ))
+        }
+        
       
     </div>
+
 
      </div>;
 }
 
-export { MenuPlayList };
+export { MenuPlayList }; 
+// testttttt
