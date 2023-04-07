@@ -2,9 +2,12 @@ import React from 'react'
 import '../Styles/LeftMenu.css';
 
 import {FaSpotify, FaEllipsisH} from "react-icons/fa";
-import {BiSearchAlt} from 'react-icons/bi'
-import {MenuList} from'./MenuList'
-import {Menu} from'./Menu'
+import {BiSearchAlt} from 'react-icons/bi';
+import {MenuList} from'./MenuList';
+import {Menu} from'./Menu';
+import {MenuPlayList} from "./MenuPlaylist";
+import {TrackList} from "./TrackList";
+
 
 function LeftMenu()
 {
@@ -13,7 +16,7 @@ function LeftMenu()
     <i>
       <FaSpotify/>
     </i>
-    <h2> Spotify</h2>
+    <h2>VanBap music</h2>
     <i>
       <FaEllipsisH/>
     </i>
@@ -27,6 +30,8 @@ function LeftMenu()
     </div>
 
     <Menu title={Menu} menuObject={MenuList}/>
+    <MenuPlayList />
+    <TrackList />
   </div>;
 }
 export {LeftMenu};
