@@ -4,19 +4,20 @@ const PlayList = [
     {id : 2, 
         name : 'RnB'},
     {id : 3, 
-        name : 'Instrumental'},
+        name : 'Soul'}, 
     {id : 4, 
-        name : 'Dance'},
+        name : 'Kpop & Jpop'},   
     {id : 5, 
-    name : 'Workout Music'},
+        name : 'Instrumental'},
     {id : 6, 
-        name : 'HipHop'},  
+        name : 'Dance'},
     {id : 7, 
-        name : 'HipHop'}, 
+    name : 'Workout Music'},
     {id : 8, 
-        name : 'HipHop'}, 
+        name : 'HipHop'},  
     {id : 9, 
-        name : 'HipHop'},   
+        name : 'Lofi'}, 
+    
 ];
 
 export {PlayList};
