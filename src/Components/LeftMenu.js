@@ -23,7 +23,7 @@ function LeftMenu()
     </div>
     
     <div className="searchBox">
-      <input type="text" placeholder='Search...'/>
+      <input type="text" placeholder='   Search...'/>
       <i className='searchIcon'>
         <BiSearchAlt/>
       </i>

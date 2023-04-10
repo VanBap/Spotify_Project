@@ -17,12 +17,12 @@ function MenuPlayList() {
     <div className="playListScroll">
         {
             PlayList && PlayList.map((list) => ( // Tạo ra 1 dãy mục trong "PLAYLIST"
-                <div className="playlist">
+                <div className="playlist" key={list.id}>
             <i className="list">
                  <BsMusicNoteList/>
              </i>
       
-            <p>Sample Name</p>
+            <p> {list.name} </p>
 
             <i className="trash">
             <BsTrash/>
