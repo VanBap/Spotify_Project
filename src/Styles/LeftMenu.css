@@ -5,6 +5,7 @@
     min-height: 100vh;
     background: rgba(34,34,34,0.6);
     backdrop-filter: blur(10px);
+    
     padding: 25px 15px;
     overflow: hidden;
     transition: all 0.3s ease cubic-bezier(0.17s, 0.885s, 0.32, 1.275);
