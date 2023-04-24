@@ -167,3 +167,41 @@
     font-weight: bold;
     font-size: 14px;
 }
+
+.menuList ul li::before{
+    position: absolute;
+    content: '';
+    left: 10px;
+    top: 24px;
+    width: 0px;
+    height: 5px;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+.menuList ul li:hover::before, .menuList ul li.active::before {
+    width: 20px;
+    transition: width 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.menuList ul li:hover a, 
+.menuList ul li.active a{
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+.menuList p{
+    color: #f1f1f1;
+    font-size: 14px;
+}
+
+.menuList p i{
+    margin-right: 6px;
+    font-size: 12px;
+}
+
+.menuList p span{
+    /*display: block;*/
+    font-size: 14px;
+    text-align: center;
+    color: #848484;
+    margin-left:6px;
+}
