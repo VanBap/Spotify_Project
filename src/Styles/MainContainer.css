@@ -205,3 +205,26 @@
     color: #848484;
     margin-left:6px;
 }
+
+/*================== Main Audio List cycle ================*/
+.audioList{
+    padding: 10px 30px;
+}
+
+.audioList .title{
+    font-size: 18px;
+    color: #f1f1f1;
+
+}
+
+.audioList .title span{
+    color: #848484;
+    font-size: 12px;
+}
+
+.songsContainer{
+    height: 220px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: red;
+}

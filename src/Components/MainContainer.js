@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import '../Styles/MainContainer.css'
 import {Banner} from "./Banner"
 import { FaUsers } from 'react-icons/fa';
-
+import { AudioList } from './AudioList';
 
 function MainContainer()
 {
@@ -37,6 +37,8 @@ allLi.forEach(n => n.addEventListener('click', changeMenuActive))
 
     <p><i><FaUsers/> 8.2M <span>Followers</span></i></p>
   </div>
+
+  <AudioList/>
   </div>
   );
 }
